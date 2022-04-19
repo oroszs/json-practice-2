@@ -3,12 +3,11 @@ const init = () => {
     getJSON().then(obj => logOBJ(obj));
 }
 const logOBJ = (obj) => {
-    let nameH1 = document.createElement('h1');
-    let string = '';
+    const selectList = document.querySelector('#pokemon');
     obj.results.forEach(index => {
-       string  += `${index.name}, `;
+        const nameOption = document.createElement('option');
+        nameOption.textContent = index.name;
+        selectList.appendChild(nameOption);
     });
-    let newString = string.slice(0, string.length - 2);
-    nameH1.textContent = newString;
-    document.body.appendChild(nameH1);
+
 }
