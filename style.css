@@ -19,7 +19,7 @@
     position: relative;
     border: 2px solid black;
     border-radius: 10px;
-    background-color: azure;
+    background-color: rgb(237, 255, 255);
     flex: none;
     margin-top: 5%;
     display: flex;
@@ -31,6 +31,7 @@
     flex-wrap: wrap;
 }
 .tile-div{
+    box-sizing: border-box;
     position: relative;
     flex: none;
     width: 200px;
@@ -50,6 +51,7 @@
     flex: none;
 }
 #pokemon {
+    color: black;
     display: block;
     position: relative;
     font-size: 20pt;
