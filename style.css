@@ -11,6 +11,8 @@
     background-color: rgb(200, 200, 200);
 }
 #display-div {
+    box-sizing: border-box;
+    padding: 20px;
     width: 90%;
     min-height: 50%;
     max-height: 70%;
@@ -36,11 +38,16 @@
     border-radius: 5px;
     background: radial-gradient(white 75%, rgb(27, 27, 27) 100%);
     border: solid black 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .tile-img {
+    position: relative;
     width: 175px;
     height: 175px;
-    margin: auto;
+    flex: none;
 }
 #pokemon {
     display: block;
@@ -53,4 +60,14 @@
     flex: none;
     margin-bottom: 5%;
     overflow: hide;
+}
+@media screen and (max-width: 400px) {
+    .tile-div {
+        width: 100px;
+        height: 100px;
+    }
+    .tile-img {
+        width: 80px;
+        height: 80px;
+    }
 }
