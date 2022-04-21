@@ -62,19 +62,22 @@
     border: solid black 5px;
     border-radius: 5px;
     flex: none;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     overflow: hide;
 }
 @media screen and (max-width: 400px) {
+    #pokemon{
+        margin-bottom: 20%;
+    }
     .tile-div {
-        width: 100px;
-        height: 100px;
+        width: 110px;
+        height: 110px;
     }
     .tile-img {
-        width: 80px;
+        width: 70px;
         height: auto;
     }
     #display-div {
-        max-height: 380px;
+        height: 410px;
     }
 }
