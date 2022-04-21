@@ -19,7 +19,7 @@
     position: relative;
     border: 2px solid black;
     border-radius: 10px;
-    background-color: white;
+    background-color: azure;
     flex: none;
     margin-top: 5%;
     display: flex;
@@ -71,6 +71,6 @@
         height: 80px;
     }
     #display-div {
-        max-height: 82%;
+        max-height: 540px;
     }
 }
