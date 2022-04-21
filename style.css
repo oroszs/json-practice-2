@@ -73,7 +73,12 @@
     margin-bottom: 5%;
     overflow: hide;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1300px) {
+    #display-div {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 600px) {
     #pokemon{
         margin-bottom: 20%;
     }
@@ -85,6 +90,12 @@
         width: 70px;
         height: auto;
     }
+    #display-div {
+        width: 420px;
+        height: 410px;
+    }
+}
+@media screen and (max-width: 450px) {
     #display-div {
         width: 280px;
         height: 410px;
