@@ -17,6 +17,7 @@ const logOBJ = (obj, dropdown) => {
 
 }
 const createDisplayDiv = (obj) => {
+    console.log(obj);
     let mainTile = document.createElement('div');
     mainTile.className += 'tile-div';
     let imgTag = document.createElement('img');
