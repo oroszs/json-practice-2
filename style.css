@@ -70,4 +70,7 @@
         width: 80px;
         height: 80px;
     }
+    #display-div {
+        max-height: 82%;
+    }
 }
